@@ -1,6 +1,6 @@
 OpenSSL Message Board
-Joseph Moussa - jam791
-
+------------------------
+Joseph Moussa 
 
 
 Need the following files to function (all included in tar file)
