@@ -17,7 +17,7 @@ Client will be asked to login/add an account, then will be given commands to inp
 Must enter command, then press ENTER, then type argument
 
 
-------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 USER MANUAL + IMPLEMENTATION DETAILS
 
 -----------------------------------------
