@@ -48,13 +48,14 @@ Dependencies - make sure to pip install <package> (just in case)
 4. After verfied you can now use GET, POST, END or QUIT as commands to interact with the server
   For the most part, you can follow the on screen instructions, but here's a breakdown:
   
-  GET - Grabs all messages from the name of the message board entered after, will notify if no message board exists
-  POST - Posts to a message board. First have to give the name of message board. If no message board exists, one is created
+  GET - Grabs all messages from the name of the message board entered after.
+    *Will notify you if no message board exists
+  POST - Posts to a message board. First supply the name of message board. 
+    *If no message board exists, one is created, and message is added.
   END - Logs out a user (goes back to login screen)
   QUIT - Disconnects Client from server (Server still runs)
 
   *EXAMPLES for GET and POST syntax below
-
 
 
 -----------------------------------------
