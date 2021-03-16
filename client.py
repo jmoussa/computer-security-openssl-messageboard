@@ -4,7 +4,7 @@ import ssl
 HOST, PORT = '127.0.0.1', 5000
 
 def handle(conn):
-    print 'Please Login:\n'
+    print('Please Login:\n')
     conn.send('SYN'.encode())
     data = conn.recv(1024).decode()
     #print 'First Server Response: ' + data
@@ -13,9 +13,9 @@ def handle(conn):
     if(complete == 1):
         data = query(conn)
     else:
-        print "ERROR: Invalid Login"
+        print("ERROR: Invalid Login")
     if(data == 'QUIT'):
-        print 'Exiting Client'
+        print('Exiting Client')
         conn.close()
         return
     handle(conn)
@@ -47,7 +47,7 @@ def query(conn):
             board_name = raw_input("Name of Message Board: ")
             conn.send(board_name.encode())
             buffer = conn.recv(4096).decode()
-            print buffer
+            print(buffer)
         elif data == 'POST':
             board_name = raw_input("Name of Board to Post to: ")
             message = raw_input("Message: ")
